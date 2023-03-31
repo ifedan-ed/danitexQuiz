@@ -1,0 +1,39 @@
+# == Schema Information
+#
+# Table name: mc_questions
+#
+#  id           :bigint           not null, primary key
+#  answer       :string
+#  distractor_1 :string
+#  distractor_2 :string
+#  distractor_3 :string
+#  distractor_4 :string
+#  distractor_5 :string
+#  distractor_6 :string
+#  distractor_7 :string
+#  question     :string
+#  created_at   :datetime         not null
+#  updated_at   :datetime         not null
+#
+
+one:
+  question: MyString
+  answer: MyString
+  distractor_1: MyString
+  distractor_2: MyString
+  distractor_3: MyString
+  distractor_4: MyString
+  distractor_5: MyString
+  distractor_6: MyString
+  distractor_7: MyString
+
+two:
+  question: MyString
+  answer: MyString
+  distractor_1: MyString
+  distractor_2: MyString
+  distractor_3: MyString
+  distractor_4: MyString
+  distractor_5: MyString
+  distractor_6: MyString
+  distractor_7: MyString
